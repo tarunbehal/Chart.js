@@ -7555,7 +7555,7 @@ module.exports = function(Chart) {
 				ctx.strokeStyle = vm.borderColor || Chart.defaults.global.defaultColor;
 				ctx.lineWidth = vm.borderWidth || Chart.defaults.global.elements.point.borderWidth;
 
-				ctx.fillStyle = vm.backgroundColor || Chart.defaults.global.defaultColor;
+				ctx.fillStyle = "transparent";
 
 				var radius = vm.radius || Chart.defaults.global.elements.point.radius;
 
